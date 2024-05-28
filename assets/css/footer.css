@@ -1,0 +1,38 @@
+/* General footer styling */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Footer container to align content */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer info text */
+.footer-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Social media icons */
+.social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #aaa;
+}
